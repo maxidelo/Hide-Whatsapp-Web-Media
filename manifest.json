@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+
+	"name": "Hide Whatsapp Web Media",
+	"short_name": "whatsappweb_hide_media",
+	"description": "Hide Whatsapp Web media",
+	"version": "0.4",
+
+	"icons": 
+	{  
+    },
+
+	"content_scripts": 
+	[
+		{
+			"matches": 	["*://web.whatsapp.com/*"],
+			"js": 		["index.js"]
+		}
+	]
+ 
+}
